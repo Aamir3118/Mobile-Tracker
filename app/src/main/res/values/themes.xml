@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MobileTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MobileTracker" parent="Base.Theme.MobileTracker" />
+
+    <style name="login_card" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners3</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners3" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeBottomRight">30dp</item>
+        <item name="cornerSizeBottomLeft">30dp</item>
+    </style>
+
+<!--    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+<!--        <item name="android:windowBackground">@drawable/popup_background</item>-->
+<!--    </style>-->
+
+</resources>

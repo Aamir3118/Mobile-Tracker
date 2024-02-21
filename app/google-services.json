@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "949320591469",
+    "project_id": "mobile-tracker-f49b9",
+    "storage_bucket": "mobile-tracker-f49b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949320591469:android:d79b19ebeffee1d7ee3764",
+        "android_client_info": {
+          "package_name": "com.example.mobiletracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8CVxy-9gfAO1hq__loXioX-9ZOruZwKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
